@@ -145,7 +145,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #8E3B59;
+			color: #D4586E;
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
@@ -220,7 +220,7 @@ input, select, textarea {
 
 		header > p {
 			display: block;
-			color: #8E3B59;
+			color: #D4586E;
 			font-weight: 400;
 			padding: 0.75em 0 1em 0;
 			font-size: 1.5em;
@@ -2011,7 +2011,7 @@ input, select, textarea {
 		font-weight: 600;
 		background: #ffffff;
 		text-decoration: none;
-		border: solid 1.5px #8E3B59;
+		border: solid 1.5px #E07A86;
 		border-radius: 0.35em;
 		padding: 0.8em 2em 0.8em 2em;
 		cursor: pointer;
@@ -2024,8 +2024,8 @@ input, select, textarea {
 		button:hover,
 		.button:hover {
 			color: #ffffff !important;
-			background-color: #8E3B59;
-			border-color: #8E3B59;
+			background-color: #D4586E;
+			border-color: #D4586E;
 		}
 
 /* Icons */
@@ -2099,11 +2099,11 @@ input, select, textarea {
 		position: relative;
 		padding: 4em 0 2em 0;
 		background-image: url("images/header.svg");
-		background-image: url("images/overlay.png"), url("images/header.svg"), -moz-linear-gradient(75deg, #7A324B 15%, #9E4765 55%, #B35C77 100%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), -webkit-linear-gradient(75deg, #7A324B 15%, #9E4765 55%, #B35C77 100%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), -ms-linear-gradient(75deg, #7A324B 15%, #9E4765 55%, #B35C77 100%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), linear-gradient(75deg, #7A324B 15%, #9E4765 55%, #B35C77 100%);
-		background-color: #8E3B59;
+		background-image: url("images/overlay.png"), url("images/header.svg"), -moz-linear-gradient(75deg, #E25E75 15%, #E8868A 55%, #EC968D 100%);
+		background-image: url("images/overlay.png"), url("images/header.svg"), -webkit-linear-gradient(75deg, #E25E75 15%, #E8868A 55%, #EC968D 100%);
+		background-image: url("images/overlay.png"), url("images/header.svg"), -ms-linear-gradient(75deg, #E25E75 15%, #E8868A 55%, #EC968D 100%);
+		background-image: url("images/overlay.png"), url("images/header.svg"), linear-gradient(75deg, #E25E75 15%, #E8868A 55%, #EC968D 100%);
+		background-color: #E57A82;
 		background-size: 100% 620%;
 		background-size: 128px 128px, 100% 620%, auto;
 		background-repeat: repeat, no-repeat, no-repeat;
@@ -2149,7 +2149,7 @@ input, select, textarea {
 			width: 100%;
 			height: 4em;
 			line-height: 4em;
-			background: rgba(45, 12, 24, 0.28);
+			background: rgba(255, 255, 255, 0.2);
 			border: solid 1px;
 			border-color: #fff;
 			border-color: rgba(255, 255, 255, 0.85);
@@ -2161,7 +2161,7 @@ input, select, textarea {
 			letter-spacing: 3px;
 			text-align: center;
 			text-transform: uppercase;
-			text-shadow: 0 1px 4px rgba(35, 10, 20, 0.4);
+			text-shadow: 0 1px 5px rgba(145, 40, 58, 0.35);
 		}
 
 	#nav {
@@ -2190,7 +2190,7 @@ input, select, textarea {
 				#nav > ul > li > span, #nav > ul > li > a {
 					color: #fff;
 					font-weight: 600;
-					text-shadow: 0 1px 4px rgba(35, 10, 20, 0.35);
+					text-shadow: 0 1px 5px rgba(145, 40, 58, 0.35);
 					text-decoration: none;
 					outline: 0;
 					border: 0;
@@ -2207,7 +2207,7 @@ input, select, textarea {
 				#nav > ul > li.active > span, #nav > ul > li.active > a,
 				#nav > ul > li:hover > span, #nav > ul > li:hover > a {
 					border-color: rgba(255, 255, 255, 0.85);
-					background-color: rgba(45, 12, 24, 0.28);
+					background-color: rgba(255, 255, 255, 0.2);
 					color: #fff;
 				}
 
@@ -2251,7 +2251,7 @@ input, select, textarea {
 
 			.dropotron li.active > a, .dropotron li.active > span,
 			.dropotron li:hover > a, .dropotron li:hover > span {
-				color: #8E3B59;
+				color: #D4586E;
 			}
 
 		.dropotron.level-0 {
@@ -2296,7 +2296,7 @@ input, select, textarea {
 			color: #fff;
 			font-size: 3em;
 			font-weight: 700;
-			text-shadow: 0 2px 6px rgba(35, 10, 20, 0.35);
+			text-shadow: 0 2px 8px rgba(145, 40, 58, 0.35);
 		}
 
 		#hero strong {
@@ -2313,7 +2313,7 @@ input, select, textarea {
 			font-size: 1.5em;
 			line-height: 1.5em;
 			font-weight: 400;
-			text-shadow: 0 1px 4px rgba(35, 10, 20, 0.3);
+			text-shadow: 0 1px 6px rgba(145, 40, 58, 0.32);
 		}
 
 		#hero a {
@@ -2329,24 +2329,25 @@ input, select, textarea {
 		#hero .button {
 			background: #ffffff;
 			border: solid 2px #ffffff;
-			color: #7A324B !important;
+			color: #D4586E !important;
 			font-weight: 700;
 			font-size: 1.25em;
 			text-shadow: none;
-			box-shadow: 0 4px 12px rgba(35, 10, 20, 0.2);
+			box-shadow: 0 4px 12px rgba(145, 40, 58, 0.18);
 		}
 
 		#hero .button.alt {
-			background: rgba(45, 12, 24, 0.45);
+			background: rgba(255, 255, 255, 0.22);
 			border: solid 2px rgba(255, 255, 255, 0.9);
 			color: #ffffff !important;
 			font-weight: 600;
+			text-shadow: 0 1px 4px rgba(145, 40, 58, 0.35);
 		}
 
 			#hero .button:hover,
 			#hero .button.alt:hover {
 				border-color: #ffffff;
-				background-color: #5E2238;
+				background-color: rgba(185, 50, 72, 0.42);
 				color: #ffffff !important;
 			}
 
